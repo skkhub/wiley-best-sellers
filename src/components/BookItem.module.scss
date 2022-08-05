@@ -1,0 +1,43 @@
+/* 
+book-item可以使用flex布局，也较为方便。
+考虑到wiley历史悠久，可能有兼容老版本浏览器的需求，
+这里使用兼容性较好的方案：绝对定位
+*/
+$imageHeight: 193px;
+
+.book-item {
+  position: relative;
+  padding: 20px 20px 20px 200px;
+  margin-bottom: 50px;
+  min-height: $imageHeight;
+}
+
+.rank {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.book-image {
+  position: absolute;
+  left: 3em;
+  top: 0;
+  width: 128px;
+  height: $imageHeight;
+  border: none;
+}
+
+// .intro {
+//   background-color: gray;
+// }
+
+.intro h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.intro p {
+  margin-bottom: 0.5em;
+}

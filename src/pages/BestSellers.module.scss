@@ -1,0 +1,35 @@
+.title {
+  margin-left: -.5em;
+  padding: 1em 0 .5em;
+  font-size: 30px;
+}
+
+.main {
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+
+  select { 
+    width: 100px;
+    border: 1px solid #333;
+    border-radius: 2px;
+    font-size: 14px;
+  }
+}
+
+.list {
+  margin-top: 40px;
+}
+
+.btn-more {
+  border: 2px solid rgb(8, 130, 110);
+  color: rgb(8, 130, 110);
+  padding: 1em 2em;
+  font-weight: 700;
+  font-family: inherit;
+  background-color: #fff;
+  cursor: pointer;
+  &:active {
+    opacity: .5;
+  }
+}

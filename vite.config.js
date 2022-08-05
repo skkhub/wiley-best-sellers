@@ -9,6 +9,10 @@ function pathResolve(path) {
 console.log(pathResolve('src'));
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/wiley-best-sellers/',
+  build: {
+    outDir: 'docs',
+  },
   resolve: {
     alias: {
       '@': pathResolve('src'),
